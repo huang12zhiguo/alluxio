@@ -1,4 +1,4 @@
----
+﻿---
 layout: global
 title: 在集群上独立运行Alluxio
 nickname: 在集群上独立运行Alluxio
@@ -51,7 +51,7 @@ $ ./bin/alluxio-start.sh # use the right parameters here. e.g. all Mount
 # Notice: the Mount and SudoMount parameters will format the existing RamFS.
 ```
 
-为了确保Alluxio正在运行, 访问 `http://<alluxio_master_hostname>:19999`, 检查文件夹`alluxio/logs`下的日志, or 或者运行简单程序:
+为了确保Alluxio正在运行, 访问 `http://<alluxio_master_hostname>:19999`, 检查文件夹`alluxio/logs`下的日志,或者运行简单程序:
 
 ```bash
 $ ./bin/alluxio runTests
